@@ -19,5 +19,6 @@ function appendKitten(name){
   return kittens3
 }
 function prependKitten(name){
-  const
+  const kittens2=["Arnold"];
+  const kittens3= kittens2.concat
 }
