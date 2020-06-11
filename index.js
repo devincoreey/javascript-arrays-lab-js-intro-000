@@ -23,4 +23,6 @@ function prependKitten(name){
   const kittens3= kittens2.concat(kittens);
   return kittens3
 }
-function 
+function removeLastKitten(){
+  
+}
