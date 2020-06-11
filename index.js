@@ -15,10 +15,11 @@ function destructivelyRemoveFirstKitten(){
 }
 function appendKitten(name){
   const kittens2=['Broom']
-  const kittens3= kittens.concat('Broom')
+  const kittens3= kittens.concat(kittens2)
   return kittens3
 }
 function prependKitten(name){
   const kittens2=["Arnold"];
-  const kittens3= kittens2.concat
+  const kittens3= kittens2.concat(kittens);
+  return kittens3
 }
